@@ -214,3 +214,10 @@ Distributed under the **MIT License**. See `LICENSE` for details.
 - **Architect & Author**: **HAMZAPOWERPLAYER**
 - **Email**: [hamzapowerplayer.global@gmail.com](mailto:hamzapowerplayer.global@gmail.com)
 - **Copyright**: © 2026 HAMZAPOWERPLAYER. All rights reserved.
+- ---
+
+## ☕ Support This Project
+
+If you find this tool useful, consider supporting future development:
+
+- 💖 [Patreon](https://patreon.com/hamzapowerplayer)
