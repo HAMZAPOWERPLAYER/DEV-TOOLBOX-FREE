@@ -98,51 +98,50 @@ Every tool has been designed with responsive layouts, error handling, syntax hig
 
 ## 🏗️ System Architecture
 
-```
 dev-toolbox-free/
-├── public/                     # Static PWA assets & icons
-│   ├── icon.svg                # Scalable vector application logo
-│   └── favicon.ico
+├── public/ # Static PWA assets & icons
+│ ├── icon.svg # Scalable vector application logo
+│ └── favicon.ico
 ├── src/
-│   ├── app/                    # Application shell & routing
-│   │   ├── AppLayout.tsx       # Master layout with Header, Sidebar & Toaster
-│   │   └── router.tsx          # React Router v6 lazy-loaded route configuration
-│   ├── components/             # Reusable UI & Layout components
-│   │   ├── layout/             # Header, Sidebar, CommandPalette, ThemeToggle, PWAInstall
-│   │   ├── shared/             # ToolLayout, ToolCard, CopyButton, ErrorBoundary
-│   │   └── ui/                 # Accessible primitives (Button, Input, Card, Badge)
-│   ├── features/               # Dedicated self-contained tool modules (15 tools)
-│   │   ├── base64/
-│   │   ├── color-picker/
-│   │   ├── cron-parser/
-│   │   ├── diff-checker/
-│   │   ├── hash-generator/
-│   │   ├── home/
-│   │   ├── json-formatter/
-│   │   ├── jwt-decoder/
-│   │   ├── lorem-ipsum/
-│   │   ├── markdown-preview/
-│   │   ├── password-generator/
-│   │   ├── qr-code-generator/
-│   │   ├── regex-tester/
-│   │   ├── timestamp-converter/
-│   │   ├── url-encoder/
-│   │   └── uuid-generator/
-│   ├── hooks/                  # Custom React hooks (useClipboard, useHotkeys, usePWAInstall, etc.)
-│   ├── lib/                    # Tool registry, Zustand stores, and utilities
-│   │   ├── store.ts            # Theme, sidebar state, favorites, and recents
-│   │   ├── tool-registry.ts    # Central registry for routes, search, and navigation
-│   │   └── utils.ts            # Classnames & string helpers
-│   ├── types/                  # Global TypeScript type definitions
-│   ├── App.tsx                 # Root React application entry
-│   ├── index.css               # Tailwind CSS imports & custom variables
-│   └── main.tsx                # Client DOM mount
-├── index.html                  # HTML5 entry with PWA meta tags & web fonts
-├── metadata.json               # Platform manifest & permissions metadata
-├── package.json                # Project dependencies & build scripts
-├── tsconfig.json               # Strict TypeScript configuration
-└── vite.config.ts              # Vite 5+ and VitePWA configuration
-```
+│ ├── app/ # Application shell & routing
+│ │ ├── AppLayout.tsx # Master layout with Header, Sidebar & Toaster
+│ │ └── router.tsx # React Router v6 lazy-loaded route configuration
+│ ├── components/ # Reusable UI & Layout components
+│ │ ├── layout/ # Header, Sidebar, CommandPalette, ThemeToggle, PWAInstall
+│ │ ├── shared/ # ToolLayout, ToolCard, CopyButton, ErrorBoundary
+│ │ └── ui/ # Accessible primitives (Button, Input, Card, Badge)
+│ ├── features/ # Dedicated self-contained tool modules (15 tools)
+│ │ ├── base64/
+│ │ ├── color-picker/
+│ │ ├── cron-parser/
+│ │ ├── diff-checker/
+│ │ ├── hash-generator/
+│ │ ├── home/
+│ │ ├── json-formatter/
+│ │ ├── jwt-decoder/
+│ │ ├── lorem-ipsum/
+│ │ ├── markdown-preview/
+│ │ ├── password-generator/
+│ │ ├── qr-code-generator/
+│ │ ├── regex-tester/
+│ │ ├── timestamp-converter/
+│ │ ├── url-encoder/
+│ │ └── uuid-generator/
+│ ├── hooks/ # Custom React hooks (useClipboard, useHotkeys, usePWAInstall, etc.)
+│ ├── lib/ # Tool registry, Zustand stores, and utilities
+│ │ ├── store.ts # Theme, sidebar state, favorites, and recents
+│ │ ├── tool-registry.ts # Central registry for routes, search, and navigation
+│ │ └── utils.ts # Classnames & string helpers
+│ ├── types/ # Global TypeScript type definitions
+│ ├── App.tsx # Root React application entry
+│ ├── index.css # Tailwind CSS imports & custom variables
+│ └── main.tsx # Client DOM mount
+├── index.html # HTML5 entry with PWA meta tags & web fonts
+├── metadata.json # Platform manifest & permissions metadata
+├── package.json # Project dependencies & build scripts
+├── tsconfig.json # Strict TypeScript configuration
+└── vite.config.ts # Vite 5+ and VitePWA configuration
+
 
 ---
 
@@ -169,8 +168,9 @@ dev-toolbox-free/
 ### Installation & Run
 
 ```bash
-# 1. Clone or navigate to the repository
-cd dev-toolbox-free
+# 1. Clone the repository
+git clone https://github.com/HAMZAPOWERPLAYER/DEV-TOOLBOX-FREE.git
+cd DEV-TOOLBOX-FREE
 
 # 2. Install dependencies
 npm install
@@ -180,9 +180,9 @@ npm run dev
 ```
 
 Open your browser and navigate to:
-```
+
 http://localhost:3000
-```
+
 
 ### Production Build
 
