@@ -1,0 +1,6 @@
+{
+  "name": "DEV-TOOLBOX-FREE",
+  "description": "100% client-side, offline-first, privacy-first developer toolbox PWA with zero tracking, zero backend, and instant processing in browser.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
